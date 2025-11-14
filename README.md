@@ -1,93 +1,171 @@
-# FORSEEN: Data-Driven Forecasting & Strategy for DTC Businesses
+<h1 style="font-family: Arial, sans-serif; font-size: 36px; color: #4F46E5; display: flex; align-items: center; border-bottom: 3px solid #4F46E5; padding-bottom: 5px;">
+    <img src="screenshots/hero.jpg" alt="FORSEEN Logo" style="width: 50px; height: 50px; margin-right: 15px; object-fit: cover;">
+    FORSEEN: Data-Driven Forecasting for DTC Brands 🔮
+</h1>
 
-## Overview
+FORSEEN is an intelligent, AI-powered platform built to help Direct-to-Consumer (DTC) businesses forecast sales, optimize inventory, collaborate with compatible brands, and make smarter decisions using real-time + historical data.
 
-**FORSEEN** is a smart, AI-powered web platform designed to support Direct-to-Consumer (DTC) business owners in monitoring and optimizing their operations. The platform leverages intelligent forecasting, collaboration tools, and strategic recommendations to address core challenges faced by modern DTC brands.
-
----
-
-## Problem Statement
-
-DTC businesses often encounter several challenges, including:
-
-- **Overstocking or Understocking**: Poor inventory forecasting can lead to excess stock that ties up capital, or stockouts that lead to lost sales.
-- **Isolated Decision Making**: DTC brands operate in silos, unable to share or leverage insights across similar businesses.
-- **Lack of Accessible BI**: Small and medium DTC owners typically lack resources to build and maintain a business intelligence pipeline.
-- **Manual Planning**: Marketing and sales strategies are often created based on intuition rather than data, resulting in missed opportunities.
-- **Data Storage Complexity**: Managing data efficiently—balancing between real-time analytics and long-term storage—is a challenge.
+Built with **React**, **Tailwind**, **Supabase**, **Snowflake**, and a robust **RAG architecture** powering insights, forecasts, and strategy generation.
 
 ---
 
-## Solution: FORSEEN
+## Tech Used 🧑‍💻
 
-FORSEEN addresses these challenges through a unified web interface that delivers actionable insights and fosters collaboration between DTC businesses. The solution includes:
-
-### 📊 Smart Sales Forecasting
-
-- Continuously tracks sales data to detect trends and patterns.
-- Uses AI-based models to predict future sales, helping owners prepare accurate inventory plans.
-- Helps prevent overstocking or understocking with data-driven alerts and recommendations.
-
-### 🔁 Client Matching Engine
-
-- In case of predicted overstocking, the system connects the business with other DTC owners facing understocking.
-- Enables a **peer-to-peer product exchange** network to balance inventory across similar markets.
-
-### 🤖 AI Assistant
-
-- Offers natural language support for answering questions about sales performance and forecasts.
-- Helps generate tailored **marketing plans** based on historical and current data.
-- Guides users with strategic suggestions in real-time.
-
-### 🎯 Recommendation System
-
-- Recommends **top-selling products**, assisting in optimizing inventory.
-- Suggests **proven marketing strategies** based on what's worked for similar DTC businesses in the network.
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge\&logo=snowflake\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_AI-8A2BE2?style=for-the-badge)
 
 ---
 
-## 🔄 Scalable Data Architecture with RAG Integration
+## Core Features ⚡
 
-FORSEEN is designed with a modern, layered data architecture:
+* 📊 **Smart Sales Forecasting**
+  Detects trends, predicts demand, and alerts businesses about overstock and understock.
 
-- Utilizes a **lightweight Supabase database** for storing recent monthly data and live metrics.
-- Periodically transfers this data to **Snowflake**, our centralized data warehouse, which stores aggregated historical data from all clients.
-- This approach ensures both **real-time responsiveness** and **long-term analytical power**.
+* 🔁 **Client Matching Engine**
+  Connects overstocked businesses with understocked partners for inventory balancing.
 
-### ✅ Supports RAG Implementation
+* 🤖 **AI Assistant (RAG-Powered)**
+  Answers sales questions, builds marketing plans, and provides personalized strategic advice.
 
-- The architecture is tailored to support **Retrieval-Augmented Generation (RAG)**.
-- Supabase acts as a **fast-access memory**, while **Snowflake** serves as a **rich, scalable knowledge base**.
-- This setup enables the AI assistant to **retrieve relevant, context-specific data from both layers**, enhancing the accuracy and relevance of its generated responses.
-- RAG powers features like marketing plan generation, sales Q&A, and strategic guidance based on both user-specific and cross-client data.
+* 🎯 **Recommendation Engine**
+  Suggests best-selling items and cross-client strategies proven to generate results.
 
----
-
-## 📈 Business Intelligence & Future Planning
-
-- Snowflake consolidates historical and market data from multiple clients, enabling advanced Business Intelligence (BI).
-- Supports high-level strategic planning through dashboards and AI-driven insights, customized for each user.
+* 🧠 **BI & Historical Analytics**
+  Snowflake-powered dashboards combining real-time and aggregated multi-client data.
 
 ---
 
-## Key Technologies
+## Screenshots 📸
 
-- **Frontend**: React + Tailwind CSS for a seamless user experience.
-- **AI Services**: Integrated models for forecasting, recommendations, and language understanding.
-- **Database**: Supabase for lightweight real-time storage.
-- **Data Warehouse**: **Snowflake**, used for historical data aggregation, analytics, and BI workflows.
-- **RAG Architecture**: Enhances the AI assistant with relevant document retrieval for accurate and contextual responses.
+<br>
+<img src="screenshots/hero.jpg" alt="Hero Section" width="70%"/>
+
+**Landing / Hero:** High-level overview of the platform’s value.
+
+<br>
+<img src="screenshots/login.jpg" alt="Login Screen" width="70%"/>
+
+**Login:** Clean and simple authentication for business owners.
+
+<br>
+<img src="screenshots/calendar.jpg" alt="Sales Calendar" width="70%"/>
+
+**Sales Calendar:** Visualize trends and demand across time.
+
+<br>
+<img src="screenshots/exchange.jpg" alt="Inventory Exchange" width="70%"/>
+
+**Inventory Exchange:** Peer-to-peer product balancing between DTC brands.
+
+<br>
+<img src="screenshots/map.jpg" alt="Map View" width="70%"/>
+
+**Market Map:** Geographic matching and trend visualization.
+
+<br>
+<img src="screenshots/pricing.jpg" alt="Pricing Plans" width="70%"/>
+
+**Pricing:** Clear subscription tiers.
+
+<br>
+<img src="screenshots/about.jpg" alt="About Page" width="70%"/>
+
+**About:** Mission, purpose, and background.
 
 ---
 
-## Impact
+## Data Architecture 🏗️
 
-FORSEEN empowers DTC businesses with the tools and knowledge to:
+```plaintext
+Supabase (Recent Data, Real-time)
+        │
+        ├── Incremental Sync
+        ▼
+Snowflake (Historical + Cross-Client Data)
+        │
+        ├── RAG Retrieval Layer
+        ▼
+AI Models (Forecasting, Marketing Strategies, Q&A)
+```
 
-- Make proactive, data-backed decisions.
-- Reduce waste and increase efficiency through collaborative inventory management.
-- Compete more effectively with larger retailers through shared insights and AI-driven strategy.
-- Leverage AI not just for automation, but as a strategic partner in growth.
+* **Supabase** → Fast-access recent memory
+* **Snowflake** → Scalable warehouse for long-term BI
+* **RAG Layer** → Retrieves the right chunks of data
+* **AI Models** → Generate forecasts, strategies, insights
 
 ---
 
+## Project Structure 📂
+
+```plaintext
+src/
+├── components/       # UI components
+├── pages/            # Screens and routes
+├── hooks/            # Forecasting, RAG, logic
+├── services/         # AI, recommendations, API
+├── db/               # Supabase & Snowflake utils
+└── styles/           # TailwindCSS
+
+ai/
+├── forecasting/      # Demand prediction models
+├── rag/              # Retrieval system
+└── strategies/       # Marketing & sales generators
+```
+
+---
+
+## Setup & Development 🛠️
+
+1. **Clone:**
+
+   ```sh
+   git clone https://github.com/mohaneddz/Dev-Camp.git
+   cd forseen
+   ```
+
+2. **Install:**
+
+   ```sh
+   pnpm install
+   ```
+
+3. **Run dev:**
+
+   ```sh
+   pnpm run dev
+   ```
+
+4. **Configure environment (.env):**
+
+   * Supabase URL & keys
+   * Snowflake credentials
+   * Model endpoints
+
+---
+
+## Roadmap 🗺️
+
+### Phase 1 — MVP
+
+* [x] Forecasting
+* [x] Alerts
+* [x] RAG Assistant
+* [x] Dashboard
+
+
+---
+
+## License ⚖️
+
+MIT License — see `LICENSE`.
+
+---
+
+## Contact 📬
+
+**GitHub:** mohaneddz
+**Email:** [mohaned.manaa.dev@gmail.com](mailto:mohaned.manaa.dev@gmail.com)
