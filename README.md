@@ -1,5 +1,4 @@
 <h1 style="font-family: Arial, sans-serif; font-size: 36px; color: #4F46E5; display: flex; align-items: center; border-bottom: 3px solid #4F46E5; padding-bottom: 5px;">
-    <img src="screenshots/hero.jpg" alt="FORSEEN Logo" style="width: 50px; height: 50px; margin-right: 15px; object-fit: cover;">
     FORSEEN: Data-Driven Forecasting for DTC Brands 🔮
 </h1>
 
@@ -123,7 +122,7 @@ ai/
 1. **Clone:**
 
    ```sh
-   git clone https://github.com/mohaneddz/Dev-Camp.git
+   git clone https://github.com/mohaneddz/Forseen-AI.git
    cd forseen
    ```
 
